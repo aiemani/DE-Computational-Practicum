@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/Users/parabe11um/PycharmProjects/DE-Computational-Practicum/code/numerical_methods.py</OriginalElement>
+  <nodes>
+    <node x="288.0" y="862.0">code.numerical_methods.Runge</node>
+    <node x="576.0" y="862.0">code.numerical_methods.Euler</node>
+    <node x="0.0" y="862.0">code.numerical_methods.Heun</node>
+    <node x="208.0" y="582.0">code.numerical_methods.NumericalMethod</node>
+    <node x="347.0" y="0.0">typing.Hashable</node>
+    <node x="284.5" y="104.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="code.numerical_methods.NumericalMethod" target="object">
+      <point x="0.0" y="-115.0" />
+      <point x="0.0" y="214.0" />
+    </edge>
+    <edge source="code.numerical_methods.Euler" target="code.numerical_methods.NumericalMethod">
+      <point x="0.0" y="-27.0" />
+      <point x="710.0" y="837.0" />
+      <point x="564.6666666666666" y="837.0" />
+      <point x="142.66666666666663" y="115.0" />
+    </edge>
+    <edge source="code.numerical_methods.Runge" target="code.numerical_methods.NumericalMethod">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="115.0" />
+    </edge>
+    <edge source="object" target="typing.Hashable">
+      <point x="0.0" y="-214.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="code.numerical_methods.Heun" target="code.numerical_methods.NumericalMethod">
+      <point x="0.0" y="-27.0" />
+      <point x="134.0" y="837.0" />
+      <point x="279.33333333333337" y="837.0" />
+      <point x="-142.66666666666663" y="115.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7222222222222222" x="422.0" y="488.0" />
+  <SelectedNodes>
+    <node>object</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+
